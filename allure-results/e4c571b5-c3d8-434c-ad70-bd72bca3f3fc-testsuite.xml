@@ -1,0 +1,248 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1610583965897' stop='1610584315279'>
+    <name>PhysicianSearchScenario</name>
+    <title>PhysicianSearchScenario</title>
+    <test-cases>
+        <test-case start='1610583970200' status='passed' stop='1610584005090'>
+            <name>TC_001	To verify that search page is opened with all elements</name>
+            <title>TC_001	To verify that search page is opened with all elements</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610583970200' status='passed' stop='1610584005082'>
+                    <name>verify search page sections and elements</name>
+                    <title>verify search page sections and elements</title>
+                    <attachments>
+                        <attachment title='Search page elements' source='39d3ea7e-8d8b-4ca1-8be1-af413b4ddc0f-attachment.png' type='image/png' size='72201'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610584005090' status='passed' stop='1610584068682'>
+            <name>TC_002	To enter different doctor names &amp; fetch suggestion dropdown</name>
+            <title>TC_002	To enter different doctor names &amp; fetch suggestion dropdown</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610584005091' status='passed' stop='1610584036505'>
+                    <name>Enter doctor name for suggestions</name>
+                    <title>Enter doctor name for suggestions</title>
+                    <attachments>
+                        <attachment title='Suggestions for entered name:Beate' source='46f549cf-1322-4012-a6f5-feebddbe8f11-attachment.png' type='image/png' size='67991'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584036505' status='passed' stop='1610584037713'>
+                    <name>Enter more specific name for less suggestions</name>
+                    <title>Enter more specific name for less suggestions</title>
+                    <attachments>
+                        <attachment title='Suggestions for entered name:Beate' source='a7d7d758-bdf3-498b-98fe-b926dd523146-attachment.png' type='image/png' size='67928'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584037713' status='passed' stop='1610584038646'>
+                    <name>Enter doctor name for no suggestions</name>
+                    <title>Enter doctor name for no suggestions</title>
+                    <attachments>
+                        <attachment title='No suggestions for entered name:Beate' source='f8a6a373-715e-4d0b-973d-97633a44982d-attachment.png' type='image/png' size='70506'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610584068682' status='passed' stop='1610584111219'>
+            <name>TC_003	To enter doctor name,search and verify from results section</name>
+            <title>TC_003	To enter doctor name,search and verify from results section</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610584068683' status='passed' stop='1610584100185'>
+                    <name>Enter doctor Name</name>
+                    <title>Enter doctor Name</title>
+                    <attachments>
+                        <attachment title='Suggestions for entered name:Beate' source='dc9aadab-235e-4875-afa6-64eaa8f257b0-attachment.png' type='image/png' size='68556'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584100185' status='passed' stop='1610584109912'>
+                    <name>Click search to list doctor results</name>
+                    <title>Click search to list doctor results</title>
+                    <attachments>
+                        <attachment title='Results section with list of doctors' source='677d3bfd-d528-4116-9c1e-abb40c0c71f0-attachment.png' type='image/png' size='120363'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584109912' status='passed' stop='1610584110292'>
+                    <name>verify show more results at bottom</name>
+                    <title>verify show more results at bottom</title>
+                    <attachments>
+                        <attachment title='show more present at bottom' source='43833404-2688-4440-904d-61ffa1ff3a9b-attachment.png' type='image/png' size='160889'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584110292' status='passed' stop='1610584111217'>
+                    <name>click show more for additional results</name>
+                    <title>click show more for additional results</title>
+                    <attachments>
+                        <attachment title='Additional results on clicking show more' source='082e9146-65e3-4356-888b-3addc1ac5008-attachment.png' type='image/png' size='114820'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610584111219' status='passed' stop='1610584116866'>
+            <name>TC_004	To enter location,search and verify from results section</name>
+            <title>TC_004	To enter location,search and verify from results section</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610584111220' status='passed' stop='1610584112431'>
+                    <name>scroll up and enter location field input</name>
+                    <title>scroll up and enter location field input</title>
+                    <attachments>
+                        <attachment title='Suggestions for entered location:Beate' source='b4137621-cd5a-4974-8459-c8d870b5d4bf-attachment.png' type='image/png' size='121098'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584112431' status='passed' stop='1610584116216'>
+                    <name>select a location field from dropdown</name>
+                    <title>select a location field from dropdown</title>
+                    <attachments>
+                        <attachment title='desired location is selected' source='21378bfb-c0c6-4825-9111-09b09777a8dd-attachment.png' type='image/png' size='119778'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584116216' status='passed' stop='1610584116862'>
+                    <name>verify that results have distance field</name>
+                    <title>verify that results have distance field</title>
+                    <attachments>
+                        <attachment title='results with distance field' source='b91f5a69-1295-4a87-a6ae-9982e354e922-attachment.png' type='image/png' size='97411'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610584116866' status='passed' stop='1610584208512'>
+            <name>TC_005  Verify Online bookable results</name>
+            <title>TC_005  Verify Online bookable results</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610584116867' status='passed' stop='1610584208027'>
+                    <name>click on online bookable checkbox and search</name>
+                    <title>click on online bookable checkbox and search</title>
+                    <attachments>
+                        <attachment title='results with online bookable option displayed' source='f6f092f3-8714-4de6-93c3-e44bc1d2fd39-attachment.png' type='image/png' size='97444'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584208027' status='passed' stop='1610584208503'>
+                    <name>verify the results and match with desired output</name>
+                    <title>verify the results and match with desired output</title>
+                    <attachments>
+                        <attachment title='desired result with online bookable option verified' source='8fcdffbf-83ab-4a51-bcc9-38e7aa99bf89-attachment.png' type='image/png' size='99184'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610584208512' status='passed' stop='1610584230169'>
+            <name>TC_006	Verify video conference available results</name>
+            <title>TC_006	Verify video conference available results</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610584208516' status='passed' stop='1610584229702'>
+                    <name>click on video conference checkbox and search</name>
+                    <title>click on video conference checkbox and search</title>
+                    <attachments>
+                        <attachment title='results with video conference option displayed' source='74aefa1f-325a-463d-8cbe-8758734172da-attachment.png' type='image/png' size='140170'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584229702' status='passed' stop='1610584230167'>
+                    <name>verify the results and match with desired output</name>
+                    <title>verify the results and match with desired output</title>
+                    <attachments>
+                        <attachment title='desired result with video conference option verified' source='beee2799-8400-4073-9e24-b056f8322466-attachment.png' type='image/png' size='140182'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610584230170' status='passed' stop='1610584244699'>
+            <name>TC_007	Verify barrier free accessibility results</name>
+            <title>TC_007	Verify barrier free accessibility results</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610584230170' status='passed' stop='1610584239278'>
+                    <name>click on barrier free accessibility checkbox and search</name>
+                    <title>click on barrier free accessibility checkbox and search</title>
+                    <attachments>
+                        <attachment title='results with barrier free accessibility option displayed' source='d5895851-1c95-4ba1-8a01-7dbcc8e4451c-attachment.png' type='image/png' size='137982'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584239278' status='passed' stop='1610584244696'>
+                    <name>verify the results and match with desired output</name>
+                    <title>verify the results and match with desired output</title>
+                    <attachments>
+                        <attachment title='desired result with barrier free accessibility option verified' source='cb22c509-e7b6-4c64-9ead-c4b4a096ff46-attachment.png' type='image/png' size='139962'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610584244699' status='passed' stop='1610584304625'>
+            <name>TC_008	Click and verify alphabetical &amp; distance sort</name>
+            <title>TC_008	Click and verify alphabetical &amp; distance sort</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610584244700' status='passed' stop='1610584278242'>
+                    <name>click on alphabetical sort, choose Z-A and verify</name>
+                    <title>click on alphabetical sort, choose Z-A and verify</title>
+                    <attachments>
+                        <attachment title='results are alphabetically sorted' source='a6a3f92e-5e59-4e8e-a5ad-23111cfe842b-attachment.png' type='image/png' size='122638'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610584278243' status='passed' stop='1610584304623'>
+                    <name>click on distance sort and verify</name>
+                    <title>click on distance sort and verify</title>
+                    <attachments>
+                        <attachment title='results are sorted by distance' source='aea2bd0b-0bab-48be-9676-675aaf541920-attachment.png' type='image/png' size='137478'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610584304625' status='passed' stop='1610584315267'>
+            <name>TC_009	Slide and verify distance slider</name>
+            <title>TC_009	Slide and verify distance slider</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610584304626' status='passed' stop='1610584310677'>
+                    <name>slide the distance slider and verify</name>
+                    <title>slide the distance slider and verify</title>
+                    <attachments>
+                        <attachment title='results are increased after sliding' source='ba8dcc15-9fa0-4479-9fe5-63cd1dfce666-attachment.png' type='image/png' size='132492'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

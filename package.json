@@ -1,0 +1,28 @@
+{
+  "name": "typescript",
+  "version": "1.0.0", 
+  "description": "End to End tests",
+  "main": "index.js",
+  "scripts": {
+    "update": "webdriver-manager update",
+    "test": "protractor protractor.conf.js"
+  },
+  "keywords": [
+    "protractor"
+  ],
+  "author": "Ashwini",
+  "license": "ISC",
+  "dependencies": { 
+    "@types/jasmine": "^3.5.10",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/node": "^13.13.8",
+    "allure-commandline": "^2.13.0",
+    "jasmine": "^3.6.1",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "moment": "^2.29.1",
+    "protractor": "^7.0.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}

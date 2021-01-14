@@ -1,0 +1,151 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1610583829775' stop='1610583965868'>
+    <name>LoginScenario</name>
+    <title>LoginScenario</title>
+    <test-cases>
+        <test-case start='1610583840472' status='passed' stop='1610583847335'>
+            <name>TC_001	To verify that login dialog is opened with all elements</name>
+            <title>TC_001	To verify that login dialog is opened with all elements</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610583840474' status='passed' stop='1610583847319'>
+                    <name>verify elements</name>
+                    <title>verify elements</title>
+                    <attachments>
+                        <attachment title='Login page elements' source='973fd171-b4e0-4fc7-b9cd-b44a800afad5-attachment.png' type='image/png' size='267631'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610583847335' status='passed' stop='1610583848744'>
+            <name>TC_002	To verify that login fails with error message for empty email &amp; password</name>
+            <title>TC_002	To verify that login fails with error message for empty email &amp; password</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610583847336' status='passed' stop='1610583848711'>
+                    <name>Sign in with empty fields</name>
+                    <title>Sign in with empty fields</title>
+                    <attachments>
+                        <attachment title='Warning for empty email &amp; password fields.
+                         email warning: Bitte geben Sie Ihre E-Mail-Adresse ein.
+                         password warning: Bitte geben Sie Ihr Passwort ein.' source='28b6d6e6-942c-4a9b-989d-8378caf098a4-attachment.png' type='image/png' size='273516'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610583848744' status='passed' stop='1610583857409'>
+            <name>TC_003	To verify that login fails for invalid email and password</name>
+            <title>TC_003	To verify that login fails for invalid email and password</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610583848745' status='passed' stop='1610583849818'>
+                    <name>Enter valid email</name>
+                    <title>Enter valid email</title>
+                    <attachments>
+                        <attachment title='No warning when Email field is not empty' source='2b621cba-2d03-493a-8fea-37fa6d392395-attachment.png' type='image/png' size='273731'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610583849818' status='passed' stop='1610583850809'>
+                    <name>Enter wrong password</name>
+                    <title>Enter wrong password</title>
+                    <attachments>
+                        <attachment title='No warning when password field is not empty' source='01fa737f-5199-4878-aa79-77ecf4b8ae91-attachment.png' type='image/png' size='271943'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610583850809' status='passed' stop='1610583853368'>
+                    <name>click signin and verify error</name>
+                    <title>click signin and verify error</title>
+                    <attachments>
+                        <attachment title='Error when we give correct email &amp; wrong password: 
+                        Bitte überprüfen Sie Ihre Eingaben und probieren Sie es erneut. Haben Sie noch keine CGM LIFE ID?' source='96e57b8e-bbbf-44e1-9519-72b73f796906-attachment.png' type='image/png' size='281100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610583853368' status='passed' stop='1610583854281'>
+                    <name>Enter wrong email</name>
+                    <title>Enter wrong email</title>
+                    <attachments>
+                        <attachment title='wrong email provided' source='8b6c3012-9c4a-49a8-af00-4867a5bf2785-attachment.png' type='image/png' size='270768'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610583854281' status='passed' stop='1610583857405'>
+                    <name>click signin and verify error</name>
+                    <title>click signin and verify error</title>
+                    <attachments>
+                        <attachment title='Error when we give wrong email &amp; wrong password: 
+                        Bitte überprüfen Sie Ihre Eingaben und probieren Sie es erneut. Haben Sie noch keine CGM LIFE ID?' source='28cbbd5a-ecab-496b-8ae6-d66dd6eb2a95-attachment.png' type='image/png' size='279743'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1610583857409' status='passed' stop='1610583965856'>
+            <name>TC_004	To verify that user can sign in successfully</name>
+            <title>TC_004	To verify that user can sign in successfully</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1610583857410' status='passed' stop='1610583858421'>
+                    <name>Enter valid email</name>
+                    <title>Enter valid email</title>
+                    <attachments>
+                        <attachment title='Valid email' source='47b3dfc5-1277-4ff2-8a92-79b66818f73d-attachment.png' type='image/png' size='271992'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610583858421' status='passed' stop='1610583859336'>
+                    <name>Enter password</name>
+                    <title>Enter password</title>
+                    <attachments>
+                        <attachment title='Valid password' source='9566a640-668e-461a-b7b2-0ea3caa938d2-attachment.png' type='image/png' size='271994'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610583859336' status='passed' stop='1610583870048'>
+                    <name>click sign in</name>
+                    <title>click sign in</title>
+                    <attachments>
+                        <attachment title='Signing in...' source='e48e73f3-3877-457b-9eed-80e84bed755a-attachment.png' type='image/png' size='266191'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610583870048' status='passed' stop='1610583870562'>
+                    <name>HomePage with user icon</name>
+                    <title>HomePage with user icon</title>
+                    <attachments>
+                        <attachment title='HomePage with user icon' source='2b8d084c-e1a4-4630-8fd9-1ba7e39eb206-attachment.png' type='image/png' size='421693'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610583870562' status='passed' stop='1610583901544'>
+                    <name>User icon dropdown options</name>
+                    <title>User icon dropdown options</title>
+                    <attachments>
+                        <attachment title='User icon dropdown options' source='31f22cd2-02b4-4f9c-bf81-3734abe8657f-attachment.png' type='image/png' size='423905'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1610583901544' status='passed' stop='1610583965853'>
+                    <name>Logged out to homepage</name>
+                    <title>Logged out to homepage</title>
+                    <attachments>
+                        <attachment title='HomePage displays' source='68cca713-3e76-4faa-ba8d-4e19354a9444-attachment.png' type='image/png' size='418965'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

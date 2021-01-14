@@ -1,0 +1,20 @@
+{
+    "login": {
+        "url": "https://demo.clickdoc.de/",
+        "valid_email": "dirk.nonn@cgm.com#1111",
+        "valid_password": "recruitingTest1!",
+        "wrong_email": "„testmail.com“",
+        "wrong_password": "„abcdefg“",
+        "EmailErrorText": "Bitte geben Sie Ihre E-Mail-Adresse ein.",
+        "PasswordErrorText": "Bitte geben Sie Ihr Passwort ein.",
+        "MismatchErrorText": "Bitte überprüfen Sie Ihre Eingaben und probieren Sie es erneut. Haben Sie noch keine CGM LIFE ID?"
+    },
+    "physicianSearch": {
+        "name_input1": "Beate",
+        "name_input2": "Beate Edel",
+        "name_input3": "Beate Edelse",
+        "name_input4": "Hans",
+        "loc_input1": "„56567“",
+        "loc_input2": "Neuwied"
+   }
+}
